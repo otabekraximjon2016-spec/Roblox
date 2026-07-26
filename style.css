@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.registration{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.rbxcdn.com/5f05bc6223b75052b594b38016762a77-marketing_bg_05202026.jpg");
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-weight:bolder;
+}
+.letter{
+    width: 65px;
+    height: 65px;
+    border: 20px solid white;
+    background-color: transparent;
+    transform: rotate(15deg);
+}
+.title_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 5px;
+}
+.text{
+    color: white;
+    font-size: 25px;
+    line-height: 2;
+}
+label{
+    color: white;
+    font-size: 18px;
+}
+form{
+    background-color: #121215;
+    padding: 40px 30px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    width: 150px;
+    padding: 10px;
+}
